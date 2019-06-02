@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 const date1 = require('date-and-time');
-//if same notice is to be sent to multiple classes or branches or batches just include array in batch,class and branch
-//if facing difficuly just include options of batches for a particular branch and particular class 
+
 var noticeSchema = new mongoose.Schema({
     title:{
         type:String,

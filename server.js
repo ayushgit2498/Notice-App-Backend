@@ -57,9 +57,8 @@ app.get("/getToken" , (req,res) => {
     res.send(token)
 
   });
-require('./CraftyClown/main')(app, router);
-require('./Nitin/main')(app, router);
-require('./BlazeHunter/main')(app, router);
+
+require('./Ayush/main')(app, router);
 router.get("/check", (req,res) => {
     res.send("hello , " + res.locals.userid)
 

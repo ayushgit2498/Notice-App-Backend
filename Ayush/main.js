@@ -29,7 +29,7 @@ const storage = multer.diskStorage({
 var upload = multer({storage:storage});
 //****************************************************************************************************************************************** */
 function validate(req){
-    var data=_.pick(req.body,['title','nbody','tname','tid','validity','scope','category']);
+    var data = _.pick(req.body,['title','nbody','tname','tid','validity','scope','category']);
 
     data.category = data.category.toLowerCase();
 
