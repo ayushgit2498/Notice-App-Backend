@@ -16,7 +16,7 @@
     "date-and-time": "^0.6.3",
     "dateformat": "^3.0.3",
     "expo-server-sdk": "^3.1.0",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "fs": "0.0.1-security",
     "hbs": "^4.0.3",
     "http": "0.0.0",
